@@ -8,6 +8,7 @@ This [app](https://protected-badlands-73149.herokuapp.com/) is currently being h
 ## Screenshot
 
 Home Page
+![Screenshot from 2022-03-30 19-23-04](https://user-images.githubusercontent.com/50773868/160886247-336d94ff-b6bf-4a58-b62d-ccc8b5c71708.png)
 
 
 ## Getting Started
