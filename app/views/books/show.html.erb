@@ -4,25 +4,17 @@
 <div class="card" style="width: 18rem;">
   <div class="card-body">
     <h5 class="card-title"><%= @book.title %></h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+    <p class="card-subtitle mb-2 text-muted">category: <strong><%= @book.category %></strong>
+      <p />
+    <p class="card-text"> <%= @book.description %>
     </p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
+    <%= link_to 'Edit', edit_book_path(@book), class: "card-link" %> 
+    <%= link_to 'Back', books_path, class: "card-link" %>
   </div>
 </div>
 
 
 
-<p>
-  <strong>Title:</strong>
-  <%= @book.title %>
-</p>
 
-<p>
-  <strong>Category:</strong>
-  <%= @book.category %>
-</p>
 
-<%= link_to 'Edit', edit_book_path(@book) %> |
-<%= link_to 'Back', books_path %>
+
