@@ -1,24 +1,63 @@
-# README
+# BookStore App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> The BookStore app keeps track of all your books. It will allow you to Create, Read, Update and Delete books. It will allow you to organise your books more as you can add a category and a description for each book.
 
-Things you may want to cover:
+## Live Demo
 
-* Ruby version
+This [app](https://protected-badlands-73149.herokuapp.com/) is currently being hosted on Heroku
+## Screenshot
 
-* System dependencies
+Home Page
 
-* Configuration
 
-* Database creation
+## Getting Started
 
-* Database initialization
+- Make sure you have [Ruby](https://www.ruby-lang.org/en/documentation/installation/) and [Postgresql](https://www.postgresql.org/download/) installed on your system.
 
-* How to run the test suite
+- Install rails by running `gem install rails`
 
-* Services (job queues, cache servers, search engines, etc.)
+- Clone this repository by running `git clone git@github.com:Kalunge/BookstoreApp.git` in your command line.
 
-* Deployment instructions
+- Navigate to the repository by running `cd BookstoreApp`.
 
-* ...
+- Run `bundle install` to install all dependencies
+
+- Run `rails db:create`, `rails db:migrate`, and `rails db:seed`   to create, migrate and seed your database.
+
+- Run `rails s` and go to http:localhost:3000 to view the app.
+
+
+## Built With
+
+- Ruby On Rails
+- Ruby Gems
+- Bootstrap
+
+## Version Control System
+
+- Git
+
+## Author
+
+👤 **Titus Muthomi**
+
+- GitHub: [@Kalunge](https://github.com/Kalunge)
+
+- Twitter: [@titus_muthomi](https://twitter.com/titus_muthomi)
+
+- LinkedIn: [Titus Muthomi](https://www.linkedin.com/in/muthomi-titus-295024181/)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Kalunge/BookstoreApp/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## License
+
+This project is [MIT](LICENSE) licensed.
