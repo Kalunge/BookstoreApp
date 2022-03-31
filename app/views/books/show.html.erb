@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title"><%= @book.title %></h5>
+    <p class="card-subtitle mb-2 text-muted">category: <strong><%= @book.category %></strong>
+      <p />
+    <p class="card-text"> <%= @book.description %>
+    </p>
+    <%= link_to 'Edit', edit_book_path(@book), class: "card-link" %> 
+    <%= link_to 'Back', books_path, class: "card-link" %>
+  </div>
+</div>
+
+
+
+
+
+
